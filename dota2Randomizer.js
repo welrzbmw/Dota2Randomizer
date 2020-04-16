@@ -1,5 +1,3 @@
-let myRandomHero;
-
 let heroArray = [
     "Abaddon",
     "Alchemist",
@@ -121,10 +119,9 @@ let heroArray = [
     "Wraith King",
     "Zeus"
     ]
-
-let random = Math.floor(Math.random() *2)
-let randomHero = heroArray[Math.floor(Math.random()* heroArray.length)]
-console.log(random)
-console.log(heroArray.length)
-console.log(randomHero)
-alert('You Must Play: ' + randomHero)
+ 
+function randomHero(){
+    let randomHero = heroArray[Math.floor(Math.random()* heroArray.length)]
+    //document.getElementById('random').innerHTML = random;
+    document.getElementById('random').innerHTML = randomHero;
+}
