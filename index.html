@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dota2 Randomizer</title>
+        <title>
+ 
+        </title>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <script src="dota2Randomizer.js"></script>
+        <script src="js/dota2Randomizer.js"></script>
     </head>
     <body>
-        <h1>Dota2 Random Hero Button!</h1>
-        <button id='randomButton'type="button" onclick="randomHero()">Random Hero</button>
-        <h1 id="random"></h1>
-       
+		<div class="w3-bar w3-black">
+			<a href="index.html" class="w3-bar-item w3-button">HOME</a>
+            <a href="pages/issApp.html" class="w3-bar-item w3-button">ISS APP</a>
+           
+		 </div>
+        <div class="w3-display-container" style="height: 500px">
+      		<h1 class="w3-display-topmiddle">Dota2 Random Hero Button!</h1>
+        	<button id='randomButton'type="button" onclick="randomHero()"class='w3-display-bottommiddle'>Random Hero</button>
+        	<h1 id="random" class="w3-display-middle"></h1>
+        </div>
+
     </body>
 </html>
